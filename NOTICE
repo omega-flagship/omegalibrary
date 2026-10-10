@@ -1,0 +1,8 @@
+OmegaLibrary
+Copyright 2026 OmegaDot Platform contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+It is an app for OmegaHive, which builds on OmegaClaw Core.
+
+app/tools/vendor/pypdf is pypdf 6.19.0, BSD 3-Clause licence, reproduced in
+app/tools/vendor/pypdf-LICENSE.txt.

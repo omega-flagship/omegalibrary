@@ -1,0 +1,10 @@
+{
+  "id": "omegalibrary",
+  "name": "OmegaLibrary",
+  "version": "0.1.0",
+  "contract": "0.1",
+  "module": "program.py",
+  "capabilities": [],
+  "icon": "book",
+  "description": "Knowledge node slice 1: a pinned source shelf, page citations and read-only search for people and attached minds."
+}

@@ -1,0 +1,4 @@
+# Test dependencies. The app itself needs only the standard library; the extraction bundle vendors
+# pypdf 6.19.0 in app/tools/vendor. The tests use pypdf directly to build and read synthetic PDFs.
+pytest==9.1.1
+pypdf==6.19.0

@@ -1,0 +1,234 @@
+{
+ "schema": "omegalibrary.seed/1",
+ "description": "Slice 1 seed: exactly the approved plan's seed list. Approved public pages, the original PDFs they link, and the local PDFs the project lead named. Local imports are in the restricted 'local' collection (hive admins and explicitly granted swarms only) until the project lead approves hive-wide reading. Sources with an unknown licence stay in the restricted collection.",
+ "collections": {
+  "public": {
+   "visibility": "public",
+   "label": "Public web sources (the approved public seed pages and the PDFs they link)"
+  },
+  "local": {
+   "visibility": "swarms",
+   "swarms": [],
+   "admins": true,
+   "label": "The project lead's local PDFs: hive admins and explicitly granted swarms only, until the project lead approves wider reading"
+  }
+ },
+ "sources": [
+  {
+   "id": "hyperon-site",
+   "kind": "html",
+   "title": "Hyperon (official site home page)",
+   "authors": [
+    "OpenCog Hyperon / SingularityNET"
+   ],
+   "date": null,
+   "edition": "as fetched (see fetched_at)",
+   "licence": "unknown (public web page)",
+   "access": "public web page",
+   "collection": "public",
+   "metadata_source": "curator",
+   "locations": [
+    {
+     "url": "https://hyperon.opencog.org/"
+    }
+   ]
+  },
+  {
+   "id": "opencog-wiki-hyperon",
+   "kind": "html",
+   "title": "Hyperon (OpenCog wiki page)",
+   "authors": [
+    "OpenCog wiki contributors"
+   ],
+   "date": null,
+   "edition": "as fetched (see fetched_at)",
+   "licence": "unknown (wiki page; check the wiki's own licence notice)",
+   "access": "public web page",
+   "collection": "public",
+   "historical": true,
+   "notes": "Historical: the wiki itself cautions its material may not be recently updated.",
+   "metadata_source": "curator",
+   "locations": [
+    {
+     "url": "https://wiki.opencog.org/w/Hyperon"
+    }
+   ]
+  },
+  {
+   "id": "approx-metta-supercompilation-v1",
+   "kind": "pdf",
+   "title": "Approximate MeTTa Supercompilation",
+   "authors": [],
+   "date": "2025-10-28",
+   "edition": "v1",
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Approximate_MeTTa_Supercompilation_v1_2025-10-28.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Approximate_MeTTa_Supercompilation_v1_2025-10-28.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cetta-guarded-supercompilation",
+   "kind": "pdf",
+   "title": "CeTTa Guarded Supercompilation",
+   "authors": [],
+   "date": "2026-07",
+   "edition": null,
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/CeTTa_Guarded_Supercompilation_2026-07.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/CeTTa_Guarded_Supercompilation_2026-07.pdf"
+    }
+   ]
+  },
+  {
+   "id": "contextframes-metamo-integration-spec",
+   "kind": "pdf",
+   "title": "ContextFrames / MetaMo Integration Spec",
+   "authors": [],
+   "date": "2026-07-22",
+   "edition": null,
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/ContextFrames_MetaMo_Integration_Spec_2026-07-22.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/ContextFrames_MetaMo_Integration_Spec_2026-07-22.pdf"
+    }
+   ]
+  },
+  {
+   "id": "integration-proposal-2",
+   "kind": "pdf",
+   "title": "Integration Proposal 2",
+   "authors": [],
+   "date": null,
+   "edition": "2",
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Integration_Proposal_2.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Integration_Proposal_2.pdf"
+    }
+   ]
+  },
+  {
+   "id": "metta-mm2-supercompiler-v2",
+   "kind": "pdf",
+   "title": "MeTTa MM2 Supercompiler",
+   "authors": [],
+   "date": "2025-10-20",
+   "edition": "v2",
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/MeTTa_MM2_Supercompiler_v2_2025-10-20.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/MeTTa_MM2_Supercompiler_v2_2025-10-20.pdf"
+    }
+   ]
+  },
+  {
+   "id": "multi-geometry-hyperon-framework",
+   "kind": "pdf",
+   "title": "Multi-Geometry Hyperon Framework",
+   "authors": [],
+   "date": "2026-04-17",
+   "edition": null,
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Multi_Geometry_Hyperon_Framework_2026-04-17.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Multi_Geometry_Hyperon_Framework_2026-04-17.pdf"
+    }
+   ]
+  },
+  {
+   "id": "plain2metta-interpretation-hive-v3",
+   "kind": "pdf",
+   "title": "Plain2MeTTa Interpretation Hive",
+   "authors": [],
+   "date": "2026-08-20",
+   "edition": "v3",
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Plain2MeTTa_Interpretation_Hive_v3_2026-08-20.pdf"
+    },
+    {
+     "path": "<local-papers>/hyperon-ecosystem-papers-2026-08-21/Plain2MeTTa_Interpretation_Hive_v3_2026-08-20.pdf"
+    }
+   ]
+  },
+  {
+   "id": "hyperon-whitepaper-goertzel-2026-07",
+   "kind": "pdf",
+   "title": "Hyperon whitepaper",
+   "authors": [
+    "Ben Goertzel"
+   ],
+   "date": "2026-07",
+   "edition": null,
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename",
+   "locations": [
+    {
+     "path": "<local-papers>/external-refs/HYPERON_WHITEPAPER_Goertzel_2026-07.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pln-book-2008-06-27",
+   "kind": "pdf",
+   "title": "Probabilistic Logic Networks (PLN book)",
+   "authors": [],
+   "date": "2008-06-27",
+   "edition": "manuscript dated 6/27/08 (per filename)",
+   "licence": "unknown",
+   "access": "Local copy on the project lead's machine, named by the project lead for the knowledge node (plan seed list). Redistribution terms not recorded.",
+   "collection": "local",
+   "metadata_source": "filename (authors not yet curated)",
+   "locations": [
+    {
+     "path": "<local-papers>/PLN_BOOK_6_27_08.pdf"
+    }
+   ]
+  }
+ ]
+}

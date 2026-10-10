@@ -1,0 +1,1 @@
+Open (Apache-2.0): OmegaLibrary, the OmegaHive knowledge node (pinned source shelf, offline page extraction, search with page citations).
